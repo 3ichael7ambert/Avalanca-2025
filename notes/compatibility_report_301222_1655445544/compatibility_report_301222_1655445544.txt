@@ -1,0 +1,30 @@
+Converting GML script: ${project_dir}\scripts\carousel_create\carousel_create.gml
+Converted description /// @description carousel_create()
+
+Converting GML script: ${project_dir}\scripts\instance_rotate_carousel\instance_rotate_carousel.gml
+Converted description /// @description instance_rotate_carousel()
+
+Converting GML script: ${project_dir}\objects\obj_menu_controller\Create_0.gml
+Converted description /// @description Delegates an settings for all elements
+
+Converting GML script: ${project_dir}\objects\obj_menu_controller\Draw_0.gml
+Converted description /// @description Draw
+
+Converting GML script: ${project_dir}\objects\obj_element\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\obj_element\Step_0.gml
+Converted description /// @description Moving
+
+Converting GML script: ${project_dir}\objects\obj_element\Mouse_5.gml
+Converted description /// @description Trigger to show number
+
+Converting GML script: ${project_dir}\objects\obj_element\Mouse_4.gml
+Converted description /// @description Change image
+
+Converting GML script: ${project_dir}\objects\obj_element\Draw_0.gml
+Converted description /// @description Draw
+
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'

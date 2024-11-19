@@ -1,0 +1,38 @@
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Divinity Resort/conv/gmx/Divinity Resort_621F2B6A/scripts/p1a_FXcreate/p1a_FXcreate.gml
+Converted builtin - line 5: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Divinity Resort/conv/gmx/Divinity Resort_621F2B6A/objects/obj_tree/Step_0.gml
+Converted builtin - line 9: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Divinity Resort/conv/gmx/Divinity Resort_621F2B6A/objects/obj_LvlControl/Step_0.gml
+Converted builtin - line 4: background_vspeed[0]=-AvaSpeed -> __background_set( e__BG.VSpeed, 0, -AvaSpeed )
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Divinity Resort/conv/gmx/Divinity Resort_621F2B6A/objects/obj_bird/Step_0.gml
+Converted builtin - line 9: background_hspeed[0] -> __background_get( e__BG.HSpeed, 0 )
+Converted builtin - line 2: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Divinity Resort/conv/gmx/Divinity Resort_621F2B6A/objects/obj_FenceBorder/Step_0.gml
+Converted builtin - line 7: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Divinity Resort/conv/gmx/Divinity Resort_621F2B6A/objects/obj_ramp/Step_0.gml
+Converted builtin - line 1: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Converting GML script: /Users/3ichael7ambert/GameMakerStudio2/Divinity Resort/conv/gmx/Divinity Resort_621F2B6A/objects/obj_cloud/Step_0.gml
+Converted builtin - line 1: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+Converted builtin - line 8: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Game speed set to 30
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'action/action_restart_game.gml'
+Added compatibility script 'action/action_wrap.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'
