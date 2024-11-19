@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrTinyPlanet77",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrTinyPlanet77",
+  "parent":{
+    "name":"Avalanca",
+    "path":"Avalanca.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
