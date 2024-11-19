@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"p1_step_av",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"p1_step_av",
+  "parent":{
+    "name":"Avalanche",
+    "path":"folders/Scripts/Modes/Avalanche.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

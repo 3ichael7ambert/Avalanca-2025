@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"p1_create_mtn",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"p1_create_mtn",
+  "parent":{
+    "name":"Mountain",
+    "path":"folders/Scripts/Modes/Mountain.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
