@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"expel_on_collision",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"expel_on_collision",
+  "parent":{
+    "name":"Avalanca",
+    "path":"Avalanca.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
