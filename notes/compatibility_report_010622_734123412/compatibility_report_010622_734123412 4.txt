@@ -1,0 +1,49 @@
+Converting GML script: ${project_dir}\scripts\p1a_FXcreate\p1a_FXcreate.gml
+Converted builtin - line 5: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Converting GML script: ${project_dir}\objects\sb_p1\Step_0.gml
+Converted builtin - line 48: view_wview[0]=800+(10*(abs(hspeed) + obj_LvlControl.AvaSpeed + sb_p1.image_xscale + sb_p1.image_yscale)) -> __view_set( e__VW.WView, 0, 800+(10*(abs(hspeed) + obj_LvlControl.AvaSpeed + sb_p1.image_xscale + sb_p1.image_yscale)) )
+Converted builtin - line 49: view_hview[0]=600+(10*(abs(hspeed) + obj_LvlControl.AvaSpeed + sb_p1.image_xscale + sb_p1.image_yscale)) -> __view_set( e__VW.HView, 0, 600+(10*(abs(hspeed) + obj_LvlControl.AvaSpeed + sb_p1.image_xscale + sb_p1.image_yscale)) )
+
+Converting GML script: ${project_dir}\objects\obj_tree\Step_0.gml
+Converted builtin - line 9: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_LvlControl\Step_0.gml
+Converted builtin - line 4: background_vspeed[0]=-AvaSpeed -> __background_set( e__BG.VSpeed, 0, -AvaSpeed )
+
+Converting GML script: ${project_dir}\objects\obj_bird\Step_0.gml
+Converted builtin - line 9: background_hspeed[0] -> __background_get( e__BG.HSpeed, 0 )
+Converted builtin - line 2: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_FenceBorder\Step_0.gml
+Converted builtin - line 7: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_ramp\Step_0.gml
+Converted builtin - line 1: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_cloud\Step_0.gml
+Converted builtin - line 1: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+Converted builtin - line 8: background_vspeed[0] -> __background_get( e__BG.VSpeed, 0 )
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Game speed set to 30
+Added compatibility script 'action/action_bounce.gml'
+Added compatibility script 'action/action_restart_game.gml'
+Added compatibility script 'action/action_wrap.gml'
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script '__global_object_depths.gml'
