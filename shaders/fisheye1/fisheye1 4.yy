@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"fisheye1",
+  "name":"fisheye1",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_clouds_puffy_pixel",
+  "name":"shd_clouds_puffy_pixel",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
