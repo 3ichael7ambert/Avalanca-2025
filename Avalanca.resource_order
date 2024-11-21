@@ -124,7 +124,7 @@
     {"name":"objParallaxLayer","order":1,"path":"objects/objParallaxLayer/objParallaxLayer.yy",},
     {"name":"objPiece","order":2,"path":"objects/objPiece/objPiece.yy",},
     {"name":"objPlaneFire","order":3,"path":"objects/objPlaneFire/objPlaneFire.yy",},
-    {"name":"objSalomon_Flag","order":53,"path":"objects/objSalomon_Flag/objSalomon_Flag.yy",},
+    {"name":"objSalomon_Flag_Menu","order":53,"path":"objects/objSalomon_Flag_Menu/objSalomon_Flag_Menu.yy",},
     {"name":"objTrail","order":4,"path":"objects/objTrail/objTrail.yy",},
     {"name":"oSprCloud","order":1,"path":"objects/oSprCloud/oSprCloud.yy",},
     {"name":"oSprCloudCreate","order":2,"path":"objects/oSprCloudCreate/oSprCloudCreate.yy",},

@@ -231,7 +231,7 @@
     {"id":{"name":"objPiece","path":"objects/objPiece/objPiece.yy",},},
     {"id":{"name":"objPlaneFire","path":"objects/objPlaneFire/objPlaneFire.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
-    {"id":{"name":"objSalomon_Flag","path":"objects/objSalomon_Flag/objSalomon_Flag.yy",},},
+    {"id":{"name":"objSalomon_Flag_Menu","path":"objects/objSalomon_Flag_Menu/objSalomon_Flag_Menu.yy",},},
     {"id":{"name":"objTrail","path":"objects/objTrail/objTrail.yy",},},
     {"id":{"name":"OCloudREADME","path":"objects/OCloudREADME/OCloudREADME.yy",},},
     {"id":{"name":"oSprCloud","path":"objects/oSprCloud/oSprCloud.yy",},},
