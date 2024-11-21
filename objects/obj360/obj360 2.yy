@@ -40,7 +40,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprCircle500",
+    "path":"sprites/sprCircle500/sprCircle500.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

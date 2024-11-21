@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_avalanche",
+  "%Name":"obj_avalanche_av",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_avalanche",
+  "name":"obj_avalanche_av",
   "overriddenProperties":[],
   "parent":{
-    "name":"Levels",
-    "path":"folders/Objects/Levels.yy",
+    "name":"av",
+    "path":"folders/Objects/av.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_avalanche",
+    "path":"sprites/spr_avalanche/spr_avalanche.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

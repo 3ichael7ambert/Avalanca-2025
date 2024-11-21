@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_avalanche",
+    "path":"sprites/spr_avalanche/spr_avalanche.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

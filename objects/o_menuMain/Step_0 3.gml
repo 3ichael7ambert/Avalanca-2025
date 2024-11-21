@@ -141,25 +141,7 @@ switch(pos) {
 	case 2:	 gameMode+=1;
 	case 3: vehicle+=1;
 }
-with (obj_tree_menu) {
-//Size based on level
-if level=0 {
-	size=.7-(random(3)/10);
-	}
-	if level=1 {
-		size=.3;
-	}
-	if level=2 {
-		size=0;
-	}
-	if level=3 {
-		size=0;
-	}
 }
-
-}
-
-
 if keyboard_check_pressed(vk_left)  || gamepad_button_check(0,gp_padl)
 {
 	wiggle=true;
@@ -168,23 +150,6 @@ switch(pos) {
 	case 2:	 gameMode-=1;
 	case 3: vehicle-=1;
 }
-
-with (obj_tree_menu) {
-//Size based on level
-if level=0 {
-	size=.7-(random(3)/10);
-}
-if level=1 {
-	size=.3;
-}
-if level=2 {
-	size=0;
-}
-if level=3 {
-	size=0;
-}
-}
-
 }
 
 
@@ -490,9 +455,6 @@ instance_create_layer(choose(
 */
 
 spawn_object(obj_tree_menu,5);
-//SALOMON
-//instance_create(room_width / 3 - 100,room_height+100,objSalomon_Flag_Menu);
-//instance_create(room_width / 3 + 100,room_height+100,objSalomon_Flag_Menu);
 
 
 
