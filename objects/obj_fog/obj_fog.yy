@@ -35,10 +35,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_fog",
-    "path":"sprites/spr_fog/spr_fog.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

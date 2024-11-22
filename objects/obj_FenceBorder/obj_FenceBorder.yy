@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"spr_FenceBorder",
-    "path":"sprites/spr_FenceBorder/spr_FenceBorder.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

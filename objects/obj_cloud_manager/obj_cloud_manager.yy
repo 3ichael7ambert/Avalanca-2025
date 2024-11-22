@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_noise",
-    "path":"sprites/spr_noise/spr_noise.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

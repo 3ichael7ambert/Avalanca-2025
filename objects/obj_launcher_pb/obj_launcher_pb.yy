@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"spr_launcher_pb",
-    "path":"sprites/spr_launcher_pb/spr_launcher_pb.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }

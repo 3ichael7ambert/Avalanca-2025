@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"spr_leftslope_pb",
-    "path":"sprites/spr_leftslope_pb/spr_leftslope_pb.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }

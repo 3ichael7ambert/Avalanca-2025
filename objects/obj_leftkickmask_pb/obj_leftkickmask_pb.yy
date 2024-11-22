@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"spr_lefticker_pb",
-    "path":"sprites/spr_lefticker_pb/spr_lefticker_pb.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

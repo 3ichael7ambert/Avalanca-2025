@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"spr_leftkickmask_pb",
-    "path":"sprites/spr_leftkickmask_pb/spr_leftkickmask_pb.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }

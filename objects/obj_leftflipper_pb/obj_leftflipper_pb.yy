@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"spr_leftflipper_pb",
-    "path":"sprites/spr_leftflipper_pb/spr_leftflipper_pb.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
