@@ -35,10 +35,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_tree",
-    "path":"sprites/spr_tree/spr_tree.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

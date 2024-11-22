@@ -1,15 +1,5 @@
 //Tundra
 if level=0 {
-	
-draw_sprite_ext(spr_tree,0,x, y, 1-size,1-size,image_angle/7,c_white,1);
-draw_sprite_ext(spr_tree,1,x+x_dist, y+y_dist, 1-size,1-size,image_angle/6,c_white,1);
-draw_sprite_ext(spr_tree,2,x+x_dist*2, y+y_dist*2, 1-size,1-size,image_angle/5,c_white,1);
-draw_sprite_ext(spr_tree,3,x+x_dist*3, y+y_dist*3, 1-size,1-size,image_angle/4,c_white,1);
-draw_sprite_ext(spr_tree,4,x+x_dist*4, y+y_dist*4, 1-size,1-size,image_angle/3,c_white,1);
-draw_sprite_ext(spr_tree,5,x+x_dist*5, y+y_dist*5, 1-size,1-size,image_angle/2,c_white,1);
-draw_sprite_ext(spr_tree,6,x+x_dist*6, y+y_dist*6, 1-size,1-size,image_angle/1,c_white,1);
-draw_sprite_ext(spr_tree,7,x+x_dist*7, y+y_dist*7, 1-size,1-size,image_angle*2,c_white,1);
-
 //shadow
 draw_sprite_ext(spr_tree,0,x+lengthdir_x(o_menuMain.shadowSize,o_menuMain.sunDirection),y+lengthdir_y(o_menuMain.shadowSize,o_menuMain.sunDirection), 1-size,1-size,image_angle/6,c_black,.1);
 draw_sprite_ext(spr_tree,1,x+lengthdir_x(o_menuMain.shadowSize*2,o_menuMain.sunDirection),y+lengthdir_y(o_menuMain.shadowSize*2,o_menuMain.sunDirection), 1-size,1-size,image_angle/6,c_black,.1);
@@ -19,6 +9,16 @@ draw_sprite_ext(spr_tree,4,x+lengthdir_x(o_menuMain.shadowSize*5,o_menuMain.sunD
 draw_sprite_ext(spr_tree,5,x+lengthdir_x(o_menuMain.shadowSize*6,o_menuMain.sunDirection),y+lengthdir_y(o_menuMain.shadowSize*6,o_menuMain.sunDirection), 1-size,1-size,image_angle/6,c_black,.1);
 draw_sprite_ext(spr_tree,6,x+lengthdir_x(o_menuMain.shadowSize*7,o_menuMain.sunDirection),y+lengthdir_y(o_menuMain.shadowSize*7,o_menuMain.sunDirection), 1-size,1-size,image_angle/6,c_black,.1);
 draw_sprite_ext(spr_tree,7,x+lengthdir_x(o_menuMain.shadowSize*8,o_menuMain.sunDirection),y+lengthdir_y(o_menuMain.shadowSize*8,o_menuMain.sunDirection), 1-size,1-size,image_angle/6,c_black,.1);
+//tree	
+draw_sprite_ext(spr_tree,0,x, y, 1-size,1-size,image_angle/7,c_white,1);
+draw_sprite_ext(spr_tree,1,x+x_dist, y+y_dist, 1-size,1-size,image_angle/6,c_white,1);
+draw_sprite_ext(spr_tree,2,x+x_dist*2, y+y_dist*2, 1-size,1-size,image_angle/5,c_white,1);
+draw_sprite_ext(spr_tree,3,x+x_dist*3, y+y_dist*3, 1-size,1-size,image_angle/4,c_white,1);
+draw_sprite_ext(spr_tree,4,x+x_dist*4, y+y_dist*4, 1-size,1-size,image_angle/3,c_white,1);
+draw_sprite_ext(spr_tree,5,x+x_dist*5, y+y_dist*5, 1-size,1-size,image_angle/2,c_white,1);
+draw_sprite_ext(spr_tree,6,x+x_dist*6, y+y_dist*6, 1-size,1-size,image_angle/1,c_white,1);
+draw_sprite_ext(spr_tree,7,x+x_dist*7, y+y_dist*7, 1-size,1-size,image_angle*2,c_white,1);
+
 
 }
 

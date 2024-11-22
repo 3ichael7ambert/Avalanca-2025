@@ -37,10 +37,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprEnemyPlane",
-    "path":"sprites/sprEnemyPlane/sprEnemyPlane.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
