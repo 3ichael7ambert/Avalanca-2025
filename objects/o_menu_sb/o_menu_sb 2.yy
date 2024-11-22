@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sb_odonis",
+    "path":"sprites/sb_odonis/sb_odonis.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
