@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"spr_rightslope_pb",
-    "path":"sprites/spr_rightslope_pb/spr_rightslope_pb.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }

@@ -13,7 +13,8 @@ vehicle=0;
 roomSpeed=10;
 buttonPressed=false;
 
-
+//SALOMON
+alarm[1]=50;
 depth=-10000;
 
 application_surface_draw_enable(true);

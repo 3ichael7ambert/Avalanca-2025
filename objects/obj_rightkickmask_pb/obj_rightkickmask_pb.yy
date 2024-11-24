@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"spr_rightkicker_pb",
-    "path":"sprites/spr_rightkicker_pb/spr_rightkicker_pb.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

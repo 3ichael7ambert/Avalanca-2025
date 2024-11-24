@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_bird",
-    "path":"sprites/spr_bird/spr_bird.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

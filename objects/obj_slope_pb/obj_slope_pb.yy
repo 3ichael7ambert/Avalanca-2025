@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"spr_launchslope_pb",
-    "path":"sprites/spr_launchslope_pb/spr_launchslope_pb.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }
