@@ -1,0 +1,25 @@
+{
+  "$GMParticleSystem":"",
+  "%Name":"partSnow360",
+  "backdropHeight":1080,
+  "backdropImageOpacity":0.5,
+  "backdropImagePath":"",
+  "backdropWidth":1920,
+  "backdropXOffset":0.0,
+  "backdropYOffset":0.0,
+  "drawOrder":0,
+  "emitters":[
+    {"$GMPSEmitter":"","%Name":"partSnow360","additiveBlend":true,"directionIncrease":0.0,"directionMax":298.0,"directionMin":288.0,"directionWiggle":1.0,"distribution":2,"editorColour":1090519039,"editorDrawShape":true,"emitCount":2,"emitDelayMax":0.0,"emitDelayMin":0.0,"emitDelayUnits":0,"emitIntervalMax":0.0,"emitIntervalMin":0.0,"emitIntervalUnits":0,"enabled":true,"endColour":150994943,"GMPresetName":"","gravityDirection":88.0,"gravityForce":0.1,"headPosition":0.0,"lifetimeMax":40.0,"lifetimeMin":40.0,"linkedEmitter":null,"locked":false,"midColour":4211074969,"mode":0,"name":"partSnow360","orientationIncrease":0.0,"orientationMax":100.0,"orientationMin":100.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":1080.0,"regionW":1920.0,"regionX":0.0,"regionY":0.0,"resourceType":"GMPSEmitter","resourceVersion":"2.0","scaleX":0.25,"scaleY":0.25,"shape":0,"sizeIncrease":0.0,"sizeMax":0.5,"sizeMin":0.25,"sizeWiggle":0.0,"spawnOnDeathCount":0,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":0,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":2.0,"speedMax":1.0,"speedMin":1.0,"speedWiggle":1.0,"spriteAnimate":false,"spriteId":null,"spriteRandom":false,"spriteStretch":true,"startColour":4294967295,"texture":1,},
+  ],
+  "name":"partSnow360",
+  "parent":{
+    "name":"Avalanca",
+    "path":"Avalanca.yyp",
+  },
+  "resourceType":"GMParticleSystem",
+  "resourceVersion":"2.0",
+  "showBackdrop":true,
+  "showBackdropImage":false,
+  "xorigin":0,
+  "yorigin":0,
+}

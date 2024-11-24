@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"generate_skin_tone",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"generate_skin_tone",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Objects/Dogfight/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
