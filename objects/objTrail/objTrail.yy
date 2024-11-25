@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprTrail",
-    "path":"sprites/sprTrail/sprTrail.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

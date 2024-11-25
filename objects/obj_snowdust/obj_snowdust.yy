@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_Snowdust",
-    "path":"sprites/spr_Snowdust/spr_Snowdust.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
