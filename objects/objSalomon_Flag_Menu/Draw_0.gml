@@ -17,9 +17,47 @@ if (y < -100) {
 //draw_sprite_ext(sprSalomon_Pole,1,rp_x+lengthdir_x(o_menuMain.shadowSize*2,o_menuMain.sunDirection),rp_y+lengthdir_y(o_menuMain.shadowSize*2,o_menuMain.sunDirection), scale,scale,o_menuMain.sunDirection,c_black,.1);
 //draw_sprite_ext(sprSalomon_Flag,2,lp_x+(50*scale)+lengthdir_x(o_menuMain.shadowSize*3,o_menuMain.sunDirection),lp_y+(50*scale)+lengthdir_y(o_menuMain.shadowSize*3,o_menuMain.sunDirection), scale,scale,o_menuMain.sunDirection,c_black,.1);
 
-draw_sprite_pos(sprSalomon_Pole_shadow,0,lp_x,lp_y,lp_x+(50*scale),lp_y,lp_x+(50*scale)+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),lp_y+(50*scale)+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),lp_x+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),lp_y+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),.6);
-draw_sprite_pos(sprSalomon_Pole_shadow,0,rp_x,rp_y,rp_x+(50*scale),rp_y,rp_x+(50*scale)+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),rp_y+(50*scale)+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),rp_x+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),rp_y+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),.6);
-draw_sprite_pos(sprSalomon_Flag_shadow,0,lp_x+ (50*scale)+lengthdir_x(o_menuMain.shadowSize+(25*scale),o_menuMain.sunDirection),lp_y+lengthdir_y(o_menuMain.shadowSize+(25*scale),o_menuMain.sunDirection),rp_x+lengthdir_x(o_menuMain.shadowSize+(25*scale),o_menuMain.sunDirection),rp_y+lengthdir_y(o_menuMain.shadowSize+(25*scale),o_menuMain.sunDirection),rp_x+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),rp_y+(50*scale)+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),lp_x+ (50*scale)+lengthdir_x(o_menuMain.shadowSize+(1000*scale),o_menuMain.sunDirection),lp_y+lengthdir_y(o_menuMain.shadowSize+(1000*scale),o_menuMain.sunDirection),.6);
+//draw_sprite_pos(sprSalomon_Pole_shadow,0,lp_x,lp_y,lp_x+(50*scale),lp_y,lp_x+(50*scale)+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),lp_y+(50*scale)+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),lp_x+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),lp_y+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),.6);
+//draw_sprite_pos(sprSalomon_Pole_shadow,0,rp_x,rp_y,rp_x+(50*scale),rp_y,rp_x+(50*scale)+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),rp_y+(50*scale)+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),rp_x+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),rp_y+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),.6);
+//draw_sprite_pos(sprSalomon_Flag_shadow,0,lp_x+ (50*scale)+lengthdir_x(o_menuMain.shadowSize+(25*scale),o_menuMain.sunDirection),lp_y+lengthdir_y(o_menuMain.shadowSize+(25*scale),o_menuMain.sunDirection),rp_x+lengthdir_x(o_menuMain.shadowSize+(25*scale),o_menuMain.sunDirection),rp_y+lengthdir_y(o_menuMain.shadowSize+(25*scale),o_menuMain.sunDirection),rp_x+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),rp_y+(50*scale)+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),lp_x+ (50*scale)+lengthdir_x(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),lp_y+lengthdir_y(o_menuMain.shadowSize+(50*scale),o_menuMain.sunDirection),.6);
+
+// Left Pole Shadow
+draw_sprite_pos(
+    sprSalomon_Pole_shadow, 0,
+    lp_x, lp_y,  // Bottom-left
+    lp_x + (50 * scale), lp_y,  // Bottom-right
+    lp_x + (50 * scale) + lengthdir_x(o_menuMain.shadowSize, o_menuMain.sunDirection), 
+    lp_y + (1000 * scale) + lengthdir_y(o_menuMain.shadowSize, o_menuMain.sunDirection),  // Top-right
+    lp_x + lengthdir_x(o_menuMain.shadowSize, o_menuMain.sunDirection), 
+    lp_y + (1000 * scale) + lengthdir_y(o_menuMain.shadowSize, o_menuMain.sunDirection),  // Top-left
+    0.6  // Alpha
+);
+
+// Right Pole Shadow
+draw_sprite_pos(
+    sprSalomon_Pole_shadow, 0,
+    rp_x, rp_y,  // Bottom-left
+    rp_x + (50 * scale), rp_y,  // Bottom-right
+    rp_x + (50 * scale) + lengthdir_x(o_menuMain.shadowSize, o_menuMain.sunDirection), 
+    rp_y + (1000 * scale) + lengthdir_y(o_menuMain.shadowSize, o_menuMain.sunDirection),  // Top-right
+    rp_x + lengthdir_x(o_menuMain.shadowSize, o_menuMain.sunDirection), 
+    rp_y + (1000 * scale) + lengthdir_y(o_menuMain.shadowSize, o_menuMain.sunDirection),  // Top-left
+    0.6  // Alpha
+);
+
+// Flag Shadow
+draw_sprite_pos(
+    sprSalomon_Flag_shadow, 0,
+    lp_x + (50 * scale) + lengthdir_x(o_menuMain.shadowSize, o_menuMain.sunDirection),  // Bottom-left
+    lp_y + (186 * scale) + lengthdir_y(o_menuMain.shadowSize, o_menuMain.sunDirection),
+    rp_x + lengthdir_x(o_menuMain.shadowSize, o_menuMain.sunDirection),  // Bottom-right
+    rp_y + (186 * scale) + lengthdir_y(o_menuMain.shadowSize, o_menuMain.sunDirection),
+    rp_x + lengthdir_x(o_menuMain.shadowSize + (300 * scale), o_menuMain.sunDirection),  // Top-right
+    rp_y + lengthdir_y(o_menuMain.shadowSize + (186 * scale), o_menuMain.sunDirection),
+    lp_x + (50 * scale) + lengthdir_x(o_menuMain.shadowSize + (300 * scale), o_menuMain.sunDirection),  // Top-left
+    lp_y + lengthdir_y(o_menuMain.shadowSize + (186 * scale), o_menuMain.sunDirection),
+    0.6  // Alpha
+);
 
 
 if (y>target_y) {
