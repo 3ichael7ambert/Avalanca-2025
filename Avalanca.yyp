@@ -175,6 +175,7 @@
     {"id":{"name":"obj_controller_pb","path":"objects/obj_controller_pb/obj_controller_pb.yy",},},
     {"id":{"name":"obj_element","path":"objects/obj_element/obj_element.yy",},},
     {"id":{"name":"obj_FenceBorder_av","path":"objects/obj_FenceBorder_av/obj_FenceBorder_av.yy",},},
+    {"id":{"name":"obj_FenceBorder_menu","path":"objects/obj_FenceBorder_menu/obj_FenceBorder_menu.yy",},},
     {"id":{"name":"obj_FenceBorder","path":"objects/obj_FenceBorder/obj_FenceBorder.yy",},},
     {"id":{"name":"obj_fog","path":"objects/obj_fog/obj_fog.yy",},},
     {"id":{"name":"obj_FXslideP1_av","path":"objects/obj_FXslideP1_av/obj_FXslideP1_av.yy",},},

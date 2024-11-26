@@ -74,6 +74,7 @@
     {"name":"obj_cloud","order":2,"path":"objects/obj_cloud/obj_cloud.yy",},
     {"name":"obj_element","order":11,"path":"objects/obj_element/obj_element.yy",},
     {"name":"obj_FenceBorder_av","order":3,"path":"objects/obj_FenceBorder_av/obj_FenceBorder_av.yy",},
+    {"name":"obj_FenceBorder_menu","order":15,"path":"objects/obj_FenceBorder_menu/obj_FenceBorder_menu.yy",},
     {"name":"obj_FenceBorder","order":5,"path":"objects/obj_FenceBorder/obj_FenceBorder.yy",},
     {"name":"obj_fog","order":20,"path":"objects/obj_fog/obj_fog.yy",},
     {"name":"obj_FXslideP1_av","order":4,"path":"objects/obj_FXslideP1_av/obj_FXslideP1_av.yy",},

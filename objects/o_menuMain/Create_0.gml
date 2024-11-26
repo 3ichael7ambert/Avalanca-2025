@@ -170,5 +170,7 @@ y=room_height/2;
 ///
 
 
+instance_create(100,room_height, obj_FenceBorder_menu);
+instance_create(room_width-100,room_height, obj_FenceBorder_menu);
 
 

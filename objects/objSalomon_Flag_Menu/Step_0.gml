@@ -32,7 +32,7 @@ if y<o_menu_sb.y depth=o_menu_sb.depth-1;
 if y>o_menu_sb.y depth=o_menu_sb.depth+1;
 */
 
-vspeed=__background_get( e__BG.VSpeed, 0 );
+//vspeed=__background_get( e__BG.VSpeed, 0 );
 /*
 if x_dist1>10 then
 {
