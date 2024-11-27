@@ -221,6 +221,7 @@
     {"name":"scr_smoothcam","order":2,"path":"scripts/scr_smoothcam/scr_smoothcam.yy",},
     {"name":"scrTinyPlanet","order":28,"path":"scripts/scrTinyPlanet/scrTinyPlanet.yy",},
     {"name":"scrTinyPlanet77","order":29,"path":"scripts/scrTinyPlanet77/scrTinyPlanet77.yy",},
+    {"name":"setup_height_vector","order":81,"path":"scripts/setup_height_vector/setup_height_vector.yy",},
     {"name":"setup_spawn_object","order":22,"path":"scripts/setup_spawn_object/setup_spawn_object.yy",},
     {"name":"smoothstep","order":2,"path":"scripts/smoothstep/smoothstep.yy",},
     {"name":"spawn_object","order":21,"path":"scripts/spawn_object/spawn_object.yy",},

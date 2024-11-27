@@ -344,6 +344,7 @@
     {"id":{"name":"scr_smoothcam","path":"scripts/scr_smoothcam/scr_smoothcam.yy",},},
     {"id":{"name":"scrTinyPlanet","path":"scripts/scrTinyPlanet/scrTinyPlanet.yy",},},
     {"id":{"name":"scrTinyPlanet77","path":"scripts/scrTinyPlanet77/scrTinyPlanet77.yy",},},
+    {"id":{"name":"setup_height_vector","path":"scripts/setup_height_vector/setup_height_vector.yy",},},
     {"id":{"name":"setup_spawn_object","path":"scripts/setup_spawn_object/setup_spawn_object.yy",},},
     {"id":{"name":"smoothstep","path":"scripts/smoothstep/smoothstep.yy",},},
     {"id":{"name":"spawn_object","path":"scripts/spawn_object/spawn_object.yy",},},
