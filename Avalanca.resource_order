@@ -360,6 +360,7 @@
     {"name":"spr_solidtri_pb","order":18,"path":"sprites/spr_solidtri_pb/spr_solidtri_pb.yy",},
     {"name":"spr_tabletop_pb","order":19,"path":"sprites/spr_tabletop_pb/spr_tabletop_pb.yy",},
     {"name":"spr_tree_basic","order":1,"path":"sprites/spr_tree_basic/spr_tree_basic.yy",},
+    {"name":"spr_tree_menu","order":75,"path":"sprites/spr_tree_menu/spr_tree_menu.yy",},
     {"name":"spr_tree","order":70,"path":"sprites/spr_tree/spr_tree.yy",},
     {"name":"spr_TreeSolid","order":71,"path":"sprites/spr_TreeSolid/spr_TreeSolid.yy",},
     {"name":"spr_ui_element","order":72,"path":"sprites/spr_ui_element/spr_ui_element.yy",},

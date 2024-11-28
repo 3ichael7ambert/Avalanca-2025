@@ -8,12 +8,12 @@ direction_to_target = point_direction(x, y, target_x, target_y);
 // Adjust pole and flag positions
 lp_x = x;                   // Left pole base X
 lp_y = y;                   // Left pole base Y
-rp_x = lp_x + 350*scale; // Adjust right pole position
+rp_x = lp_x + 350*_scale; // Adjust right pole position
 rp_y = lp_y;
 
 // Perspective offsets for depth effect
-x_offset = lengthdir_x(100*scale, direction_to_target + 180); // Horizontal offset perpendicular to direction
-y_offset = lengthdir_y(100*scale, direction_to_target + 180); // Vertical offset perpendicular to direction
+x_offset = lengthdir_x(100*_scale, direction_to_target + 180); // Horizontal offset perpendicular to direction
+y_offset = lengthdir_y(100*_scale, direction_to_target + 180); // Vertical offset perpendicular to direction
 
 // Ensure the object moves up and destroys when out of bounds
 y -= o_menuMain.roomSpeed;
