@@ -18,14 +18,15 @@ function setup_height_vector(
     height_spread = [0, 6], 
     scale_range = [1, 0.2], 
     color_range = [c_dkgray, c_white], 
-    angle_range = [0, 0]
+    angle_range = [0, 0],
+	sprite = sprite_index
 ) {
     // Directional vector used to calculate offsets for each layer
-    point_vector = new Vector2(1, 0);
+    var point_vector = new Vector2(1, 0);
     // Base scaling factor for layer offsets
-    offset = _scaling;
+    var offset = _scaling;
     // Array to store all generated layered sprites
-    layered_sprite_array = [];
+    var _layered_sprite_array = [];
 
     // Build each layered sprite object
     for (var i = 0; i < layers; i++) {
@@ -49,7 +50,7 @@ function setup_height_vector(
         var _tile = global.sprite_depth_controller.add_tile(
             x + _dx,		// x-coordinate with offset
             y + _dy,		// y-coordinate with offset
-            sprite_index,	// Index of the sprite to use
+            sprite,	// Index of the sprite to use
             i,				// Image index of the sprite
             -_offset		// Depth adjustment
         );
@@ -60,9 +61,10 @@ function setup_height_vector(
         layer_sprite_angle(_tile, _rotate); // Set rotation angle
 
         // Store the tile and its shift value in the layered sprite array
-        layered_sprite_array[i] = {
+        _layered_sprite_array[i] = {
             tile: _tile,
             shift: _offset
         };
     }
+	return {sprites: _layered_sprite_array, offset, point_vector};
 }

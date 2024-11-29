@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"setup_height_vector",
+  "%Name":"remove_vecorized_sprites",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"setup_height_vector",
+  "name":"remove_vecorized_sprites",
   "parent":{
     "name":"Fake 3D",
     "path":"folders/Game Engine/Scripts/Fake 3D.yy",

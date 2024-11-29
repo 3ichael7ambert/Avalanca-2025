@@ -7,9 +7,11 @@ var layers = random_range(6,7);
 var rotate = [irandom_range(0, 360),irandom_range(0, 360)];
 
 /// setup
-setup_height_vector(,layers,height,scale,,rotate);
+/// @description setup
 
-
+sprite_array_pole1 = setup_height_vector(,15,[0,4],[1,1],[c_ltgray, c_white],,spr_pole);
+sprite_array_pole2 = setup_height_vector(,15,[0,4],[1,1],[c_ltgray, c_white],,spr_pole);
+sprite_array_base = setup_height_vector(,10,[2,4],[1,1],[c_ltgray, c_white],,spr_flag);
 
 
 

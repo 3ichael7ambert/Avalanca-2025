@@ -7,9 +7,7 @@ var layers = 5;
 var rotate = [0,0];
 
 /// setup
-setup_height_vector(,layers,height,scale,,rotate);
-
-
+sprite_array = setup_height_vector(,layers,height,scale,,rotate);
 
 
 target_x=room_width/2;

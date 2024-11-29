@@ -1,4 +1,4 @@
-
+exit;
 
 // Step Event: Calculate distances and depth
 x_dist1 = (x - target_x) / 50;

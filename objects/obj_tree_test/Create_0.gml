@@ -7,4 +7,4 @@ var layers = random_range(6,7);
 var rotate = [irandom_range(0, 360),irandom_range(0, 360)];
 
 /// setup
-setup_height_vector(,layers,height,scale,,rotate);
+sprite_array = setup_height_vector(,layers,height,scale,,rotate);

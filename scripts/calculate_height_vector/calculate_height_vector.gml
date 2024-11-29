@@ -5,22 +5,22 @@
  * using the current position of the object and the camera. It then updates the
  * position of each sprite in the layered sprite array accordingly.
  */
-function calculate_height_vector() {
+function calculate_height_vector(_layered_sprite_array, xto = x, yto = y) {
     // Calculate the directional vector based on the object's position relative to the camera's center
-    point_vector.x = (x - (global.camera.x + global.camera.w / 2)) / offset;
-    point_vector.y = (y - (global.camera.y + global.camera.h / 2)) / offset;
+    _layered_sprite_array.point_vector.x = (xto - (global.camera.x + global.camera.w / 2)) / _layered_sprite_array.offset;
+    _layered_sprite_array.point_vector.y = (yto - (global.camera.y + global.camera.h / 2)) / _layered_sprite_array.offset;
 
     /// Update the positions of all sprites in the layered sprite array
-    for (var i = 0; i < array_length(layered_sprite_array); i++) {
+    for (var i = 0; i < array_length(_layered_sprite_array.sprites); i++) {
         // Retrieve the data for the current layer
-        var _tileData = layered_sprite_array[i];
+        var _tileData = _layered_sprite_array.sprites[i];
         var _offset = _tileData.shift; // Get the pre-calculated offset for this layer
 
         // Calculate the new position offset for this layer
-        var _dx = point_vector.x * _offset;
-        var _dy = point_vector.y * _offset;
+        var _dx = _layered_sprite_array.point_vector.x * _offset;
+        var _dy = _layered_sprite_array.point_vector.y * _offset;
 
         // Update the sprite's position with the new offset values
-        layer_sprite_position(_tileData.tile, x + _dx, y + _dy);
+        layer_sprite_position(_tileData.tile, xto + _dx, yto + _dy);
     }
 }
