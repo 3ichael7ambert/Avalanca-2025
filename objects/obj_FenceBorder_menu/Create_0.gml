@@ -1,5 +1,5 @@
 /// @description setup
-
+//instance_destroy();
 /// randomize
 var height = [0, 2];
 var scale = [.5, .5];

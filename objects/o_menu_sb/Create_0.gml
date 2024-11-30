@@ -43,8 +43,67 @@ right_shoe_y = y + lengthdir_y(160 - (pedals - 3) * 4, image_angle - 180 - 35);
 
 
 
+sprite_array_pole1 = setup_height_vector(,15,[0,4],[1,1],[c_ltgray, c_white],,spr_pole);
+sprite_array_pole2 = setup_height_vector(,15,[0,4],[1,1],[c_ltgray, c_white],,spr_pole);
+sprite_array_base = setup_height_vector(,10,[2,4],[1,1],[c_ltgray, c_white],,spr_flag);
 
 
+/*function setup_height_vector(
+    _scaling = 32, 
+    layers = 6, 
+    height_spread = [0, 6], 
+    scale_range = [1, 0.2], 
+    color_range = [c_dkgray, c_white], 
+    angle_range = [0, 0],
+	sprite = sprite_index
+)
+*/
+
+
+// Create
+
+sprite_array_snowboard = setup_height_vector(
+    /* parameter1 */, 
+    25, 
+    [0, 6], 
+    [1, 1], 
+    [c_blue, c_white], 
+    /* additional_parameters */, 
+    spr_sb
+);
+
+sprite_array_shoes = setup_height_vector(
+    /* parameter1 */, 
+    10, 
+    [0, 2], 
+    [1, 1], 
+    [c_black, c_dkgray], 
+    /* additional_parameters */, 
+    spr_player_shoe
+);
+
+
+
+
+sprite_array_hair = setup_height_vector(
+    /* parameter1 */, 
+    8, 
+    [1, 3], 
+    [1, 1], 
+    [hair_color, hair_color], 
+    /* additional_parameters */, 
+    spr_player_hair
+);
+
+sprite_array_arm = setup_height_vector(
+    /* parameter1 */, 
+    8, 
+    [1, 3], 
+    [1, 1], 
+    [arm_color, arm_color], 
+    /* additional_parameters */, 
+    spr_player_arm
+);
 
 
 

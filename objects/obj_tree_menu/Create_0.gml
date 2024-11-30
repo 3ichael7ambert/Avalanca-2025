@@ -7,6 +7,14 @@ var scale = [random_range(0.9, 1.1), random_range(0.1, 0.3)];
 var layers = random_range(6,7);
 var rotate = [irandom_range(0, 360),irandom_range(0, 360)];
 
+if level=0 {sprite_index=spr_tree_menu;}
+if level=1 {sprite_index=sprPalmTree;}
+if level=2 {sprite_index=sprTreeJungle;}
+if level=3 {sprite_index=sprTree;}
+if level=4 {sprite_index=spr_tree_menu;}
+if level=5 {sprite_index=spr_blank;}
+if level=6 {sprite_index=spr_blank;}
+
 /// setup
 sprite_array = setup_height_vector(,layers,height,scale,,rotate);
 
