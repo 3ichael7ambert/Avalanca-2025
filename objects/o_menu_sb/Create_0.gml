@@ -47,7 +47,7 @@ sprite_array_pole1 = setup_height_vector(,15,[0,4],[1,1],[c_ltgray, c_white],,sp
 sprite_array_pole2 = setup_height_vector(,15,[0,4],[1,1],[c_ltgray, c_white],,spr_pole);
 sprite_array_base = setup_height_vector(,10,[2,4],[1,1],[c_ltgray, c_white],,spr_flag);
 
-
+image_angle_alt=image_angle+90;
 /*function setup_height_vector(
     _scaling = 32, 
     layers = 6, 
@@ -61,49 +61,159 @@ sprite_array_base = setup_height_vector(,10,[2,4],[1,1],[c_ltgray, c_white],,spr
 
 
 // Create
-
+//TUNDRA
+if level =0 {
+	
+	
+	//SNOWBOARD
+	if vehicle=0{
 sprite_array_snowboard = setup_height_vector(
-    /* parameter1 */, 
-    25, 
-    [0, 6], 
-    [1, 1], 
-    [c_blue, c_white], 
-    /* additional_parameters */, 
+    1, 
+    1, 
+    [0, 0], 
+    [scale, scale], 
+    [c_white, c_white], 
+    [image_angle,image_angle], 
     spr_sb
 );
 
 sprite_array_shoes = setup_height_vector(
-    /* parameter1 */, 
-    10, 
-    [0, 2], 
-    [1, 1], 
-    [c_black, c_dkgray], 
-    /* additional_parameters */, 
+    scale, 
+    1, 
+    [0, 1], 
+    [scale, scale], 
+    [shoe_color, shoe_color], 
+    [image_angle,image_angle], 
     spr_player_shoe
 );
+if shoe_type=2||shoe_type=3 {
+//draw_sprite_ext(spr_player_shoe_tip,0,x+lengthdir_x(30,image_angle),y+lengthdir_y(30,image_angle),scale,scale,image_angle,shoe_color_2,1);
+sprite_array_shoes_tip = setup_height_vector(
+    scale, 
+    1, 
+    [0, 1], 
+    [scale, scale], 
+    [shoe_color, shoe_color], 
+    [image_angle,image_angle], 
+    spr_player_shoe_tip
+);
+}
+if shoe_type=2 {
+//draw_sprite_ext(spr_player_shoe_holes,0,x+lengthdir_x(20,image_angle),y+lengthdir_y(20,image_angle),scale,scale,image_angle,c_white,1);
+//draw_sprite_ext(spr_player_shoe_lace,0,x+lengthdir_x(20,image_angle),y+lengthdir_y(20,image_angle),scale,scale,image_angle,shoe_color_3,1);
+sprite_array_shoes_holes = setup_height_vector(
+    scale, 
+    1, 
+    [0, 1], 
+    [scale, scale], 
+    [shoe_color, shoe_color], 
+    [image_angle,image_angle], 
+    spr_player_shoe_holes
+);
+sprite_array_shoes_lace = setup_height_vector(
+    scale, 
+    1, 
+    [0, 1], 
+    [scale, scale], 
+    [shoe_color, shoe_color], 
+    [image_angle,image_angle], 
+    spr_player_shoe_lace
+);
+
+}
 
 
+//arms
 
-
-sprite_array_hair = setup_height_vector(
-    /* parameter1 */, 
+//draw_sprite_ext(spr_player_hands,0,x+lengthdir_x(12,image_angle-25),y+lengthdir_y(12,image_angle-25),scale,scale,image_angle,skin_color,1);
+sprite_array_hands = setup_height_vector(
+    scale, 
     8, 
     [1, 3], 
     [1, 1], 
     [hair_color, hair_color], 
-    /* additional_parameters */, 
+    [image_angle,image_angle], 
     spr_player_hair
 );
 
-sprite_array_arm = setup_height_vector(
+if shirt_type=1 {
+//draw_sprite_ext(spr_player_arm,0,x+lengthdir_x(15,image_angle-180),y+lengthdir_y(15,image_angle-180),scale,scale,image_angle,arm_color,1);
+sprite_array_shirt1 = setup_height_vector_animate(
+    scale, 
+    8, 
+    [1, 3], 
+    [1, 1], 
+    [hair_color, hair_color], 
+    [image_angle,image_angle], 
+    spr_player_hair
+);
+}
+if shirt_type=2 {
+//draw_sprite_ext(spr_player_arm,1,x+lengthdir_x(0,image_angle),y+lengthdir_y(0,image_angle),scale,scale,image_angle,c_white,1);
+//draw_sprite_ext(spr_player_arm,2,x+lengthdir_x(15,image_angle-180),y+lengthdir_y(15,image_angle-180),scale,scale,image_angle,arm_color_2,1);
+//draw_sprite_ext(spr_player_arm,3,x+lengthdir_x(15,image_angle-180),y+lengthdir_y(15,image_angle-180),scale,scale,image_angle,arm_color_3,1);
+sprite_array_shirt2a = setup_height_vector_animate(
+    scale, 
+    8, 
+    [1, 3], 
+    [1, 1], 
+    [hair_color, hair_color], 
+    [image_angle,image_angle], 
+    spr_player_hair,
+	1
+);
+sprite_array_shirt2b = setup_height_vector_animate(
+    scale, 
+    8, 
+    [1, 3], 
+    [1, 1], 
+    [hair_color, hair_color], 
+    [image_angle,image_angle], 
+    spr_player_hair,
+	2
+);
+sprite_array_shirt3 = setup_height_vector_animate(
+    scale, 
+    8, 
+    [1, 3], 
+    [1, 1], 
+    [hair_color, hair_color], 
+    [image_angle,image_angle], 
+    spr_player_hair,
+	3
+);
+}
+//Face
+//draw_sprite_ext(spr_player_face,0,x+lengthdir_x(0,image_angle-180),y+lengthdir_y(0,image_angle-180),scale,scale,(image_angle-270)/2+90,skin_color,1);
+//draw_sprite_ext(spr_player_band2,0,x+lengthdir_x(0,image_angle-180),y+lengthdir_y(0,image_angle-180),scale,scale,(image_angle-270)/2+90,goggles_color,1);
+//draw_sprite_ext(spr_player_glasses_band,0,x+lengthdir_x(0,image_angle-180),y+lengthdir_y(0,image_angle-180),scale,scale,(image_angle-270)/2+90,goggles_color,1);
+//draw_sprite_ext(spr_player_glasses,0,x+lengthdir_x(0,image_angle-180),y+lengthdir_y(0,image_angle-180),scale,scale,(image_angle-270)/2+90,glasses_color,1);
+//draw_sprite_ext(spr_player_hair,hair_frame,x+lengthdir_x(40,image_angle-180),y+lengthdir_y(40,image_angle-180),scale,scale,(image_angle-270)/2+90,hair_color,1);
+	
+
+
+sprite_array_face = setup_height_vector(
     /* parameter1 */, 
     8, 
     [1, 3], 
     [1, 1], 
     [arm_color, arm_color], 
     /* additional_parameters */, 
-    spr_player_arm
+    spr_player_face
 );
 
 
+sprite_array_hair = setup_height_vector_animate(
+    scale, 
+    8, 
+    [1, 3], 
+    [1, 1], 
+    [hair_color, hair_color], 
+    [image_angle,image_angle], 
+    spr_player_hair,
+	hair_frame
+);
+	}
 
+
+}

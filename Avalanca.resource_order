@@ -410,6 +410,8 @@
     {"name":"sprMotorcycle","order":8,"path":"sprites/sprMotorcycle/sprMotorcycle.yy",},
     {"name":"sprMtnMenu","order":73,"path":"sprites/sprMtnMenu/sprMtnMenu.yy",},
     {"name":"sprOcean","order":12,"path":"sprites/sprOcean/sprOcean.yy",},
+    {"name":"sprPalmTree_Base","order":5,"path":"sprites/sprPalmTree_Base/sprPalmTree_Base.yy",},
+    {"name":"sprPalmTree_Leaves","order":6,"path":"sprites/sprPalmTree_Leaves/sprPalmTree_Leaves.yy",},
     {"name":"sprPalmTree_raw","order":12,"path":"sprites/sprPalmTree_raw/sprPalmTree_raw.yy",},
     {"name":"sprPalmTree","order":2,"path":"sprites/sprPalmTree/sprPalmTree.yy",},
     {"name":"sprPalmTreeLarge","order":3,"path":"sprites/sprPalmTreeLarge/sprPalmTreeLarge.yy",},

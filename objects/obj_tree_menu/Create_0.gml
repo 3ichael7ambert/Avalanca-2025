@@ -1,22 +1,87 @@
 ////NEW 3D
 /// @description setup
+randomize();
 
-/// randomize
-var height = [0, irandom_range(6,8)];
-var scale = [random_range(0.9, 1.1), random_range(0.1, 0.3)];
-var layers = random_range(6,7);
-var rotate = [irandom_range(0, 360),irandom_range(0, 360)];
+	/// setup
+if level=0 {
+	sprite_index=spr_tree_menu;
+	sprite_array = setup_height_vector(
+	,
+	random_range(6,7),
+	[0, irandom_range(6,8)],
+	[random_range(0.9, 1.1), random_range(0.1, 0.3)],
+	,
+	[irandom_range(0, 360),irandom_range(0, 360)],
+	sprite_index);
+	
+	sprite_array_leaves = setup_height_vector(
+	4,
+	random_range(6,7),
+	[0, irandom_range(6,8)],
+	[random_range(0.9, 1.1), random_range(0.9, 1.1)],
+	,
+	[irandom_range(0, 360),irandom_range(0, 360)],
+	sprPalmTree_Leaves,
+	spr_blank);
+	}
+	
+if level=1 {
+	sprite_index=sprPalmTree_Base;
+	sprite_array = setup_height_vector(
+	,
+	random_range(14,16),
+	[0, irandom_range(14,15)],
+	[random_range(0.2, 0.3), random_range(0.2, 0.3)],
+	,
+	[irandom_range(0, 360),irandom_range(0, 360)],
+	sprPalmTree_Base);
+	
+	sprite_array_leaves = setup_height_vector(
+	,
+	random_range(5,9),
+	[15, irandom_range(16,17)],
+	[random_range(0.4, 0.5), random_range(0.4, 0.5)],
+	,
+	[irandom_range(0, 0),irandom_range(360, 360)],
+	sprPalmTree_Leaves);
+	}
+if level=2 {
+	sprite_index=sprTreeJungle;
 
-if level=0 {sprite_index=spr_tree_menu;}
-if level=1 {sprite_index=sprPalmTree;}
-if level=2 {sprite_index=sprTreeJungle;}
-if level=3 {sprite_index=sprTree;}
-if level=4 {sprite_index=spr_tree_menu;}
-if level=5 {sprite_index=spr_blank;}
-if level=6 {sprite_index=spr_blank;}
+	sprite_array = setup_height_vector(
+	,
+	random_range(6,7),
+	[0, irandom_range(6,8)],
+	[random_range(0.9, 1.1), random_range(0.1, 0.3)],
+	,
+	[irandom_range(0, 360),irandom_range(0, 360)],
+	sprite_index);}
+if level=3 {
+	sprite_index=sprTree;
+	sprite_array = setup_height_vector(
+	,
+	random_range(6,7),
+	[0, irandom_range(6,8)],
+	[random_range(0.9, 1.1), random_range(0.1, 0.3)],
+	,
+	[irandom_range(0, 360),irandom_range(0, 360)],
+	sprite_index);}
+if level=4 {
+	sprite_index=spr_tree_menu;
+	sprite_index=spr_tree_menu;
+	sprite_array = setup_height_vector(
+	,
+	random_range(6,7),
+	[0, irandom_range(6,8)],
+	[random_range(0.9, 1.1), random_range(0.1, 0.3)],
+	,
+	[irandom_range(0, 360),irandom_range(0, 360)],
+	sprite_index);}
+if level=5 {
+	sprite_index=spr_blank;}
+if level=6 {
+	sprite_index=spr_blank;}
 
-/// setup
-sprite_array = setup_height_vector(,layers,height,scale,,rotate);
 
 
 

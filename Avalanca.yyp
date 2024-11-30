@@ -551,6 +551,8 @@
     {"id":{"name":"sprMotorcycle","path":"sprites/sprMotorcycle/sprMotorcycle.yy",},},
     {"id":{"name":"sprMtnMenu","path":"sprites/sprMtnMenu/sprMtnMenu.yy",},},
     {"id":{"name":"sprOcean","path":"sprites/sprOcean/sprOcean.yy",},},
+    {"id":{"name":"sprPalmTree_Base","path":"sprites/sprPalmTree_Base/sprPalmTree_Base.yy",},},
+    {"id":{"name":"sprPalmTree_Leaves","path":"sprites/sprPalmTree_Leaves/sprPalmTree_Leaves.yy",},},
     {"id":{"name":"sprPalmTree_raw","path":"sprites/sprPalmTree_raw/sprPalmTree_raw.yy",},},
     {"id":{"name":"sprPalmTree","path":"sprites/sprPalmTree/sprPalmTree.yy",},},
     {"id":{"name":"sprPalmTreeLarge","path":"sprites/sprPalmTreeLarge/sprPalmTreeLarge.yy",},},
