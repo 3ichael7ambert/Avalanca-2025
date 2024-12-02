@@ -26,6 +26,8 @@ ocean_animation=0;
 c_color=c_white;
 //Environment
 sunDirection=random(360);
+sun_x=random(room_width);
+sun_y=random(room_height);
 o_menuMain.shadowSize=10;
 
 	var lay_id = layer_get_id("backgroundLayer");

@@ -15,6 +15,7 @@ x += hspeed;
 
 // Clamp x within the specified range
 x = clamp(x, room_width / 3 - 100, room_width / 3 + 100);
+//x = clamp(x, 0, room_width);
 
 // Set image angle
 image_angle = -90 + (2 * hspeed);

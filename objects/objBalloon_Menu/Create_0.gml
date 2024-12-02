@@ -25,7 +25,7 @@ ydist=lengthdir_y(dis,dir);
 sprite_array_balloon2 = setup_height_vector_balloon(
 	,
 	15,
-	[z+2,z+10],
+	[z+5,z+10],
 	[0,_scale],
 	[_color, _color],
 	[dir,dir],
@@ -35,7 +35,7 @@ sprite_array_balloon2 = setup_height_vector_balloon(
 sprite_array_string = setup_height_vector(
 	,
 	3,
-	[z+0,z+2.1],
+	[z+0,z+5.1],
 	[_scale,_scale],
 	[c_ltgray, c_white],
 	[dir,dir],
@@ -60,6 +60,20 @@ sprite_array_reflection = setup_height_vector(
 	sprBalloon_Ref);
 
 
+sprite_array_shadow = setup_height_vector_shadow(
+	,
+	2,
+	,
+	[_scale/2,_scale/2],
+	,
+	,
+	sprite_index,
+	o_menuMain.shadowSize,
+	o_menuMain.sun_x,
+	o_menuMain.sun_y,
+	.3
+	
+)
 
 
 

@@ -6,22 +6,38 @@ randomize();
 if level=0 {
 	sprite_index=spr_tree_menu;
 	sprite_array = setup_height_vector(
-	,
-	random_range(6,7),
-	[0, irandom_range(6,8)],
-	[random_range(0.9, 1.1), random_range(0.1, 0.3)],
-	,
-	[irandom_range(0, 360),irandom_range(0, 360)],
-	sprite_index);
+		,
+		random_range(6,7),
+		[0, irandom_range(6,8)],
+		[random_range(0.9, 1.1), random_range(0.1, 0.3)],
+		,
+		[irandom_range(0, 360),irandom_range(0, 360)],
+		sprite_index);
 	
 	sprite_array_leaves = setup_height_vector(
-	4,
-	random_range(6,7),
-	[0, irandom_range(6,8)],
-	[random_range(0.9, 1.1), random_range(0.9, 1.1)],
-	,
-	[irandom_range(0, 360),irandom_range(0, 360)],
-	spr_blank);
+		4,
+		random_range(6,7),
+		[0, irandom_range(6,8)],
+		[random_range(0.9, 1.1), random_range(0.9, 1.1)],
+		,
+		[irandom_range(0, 360),irandom_range(0, 360)],
+		spr_blank);
+	
+	sprite_array_shadow=setup_height_vector_shadow(
+		,
+		random_range(6,7),
+		,
+		[random_range(0.9, 1.1), random_range(0.1, 0.3)],
+		[c_black,c_black],
+		[irandom_range(0, 360),irandom_range(0, 360)],
+		sprite_index,
+		o_menuMain.sun_x,
+		o_menuMain.sun_y,
+		o_menuMain.shadowSize,
+	
+	);
+	
+	
 	}
 	
 if level=1 {

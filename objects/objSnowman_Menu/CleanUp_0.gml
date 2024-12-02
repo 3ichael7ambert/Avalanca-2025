@@ -8,3 +8,5 @@ remove_vecorized_sprites(sprite_array_arm_l);
 remove_vecorized_sprites(sprite_array_arm_r);
 remove_vecorized_sprites(sprite_array_face);
 remove_vecorized_sprites(sprite_array_hat);
+
+remove_vecorized_sprites(sprite_array_shadow)

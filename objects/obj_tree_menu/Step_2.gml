@@ -2,6 +2,7 @@
 
 if level=0 {sprite_index=spr_tree_menu;
 	calculate_height_vector(sprite_array);
+	calculate_height_vector_shadow(sprite_array_shadow);
 	}
 if level=1 {sprite_index=sprPalmTree;
 	calculate_height_vector(sprite_array);

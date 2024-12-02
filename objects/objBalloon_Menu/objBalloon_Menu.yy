@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBalloon",
-    "path":"sprites/sprBalloon/sprBalloon.yy",
+    "name":"sprBalloon_1",
+    "path":"sprites/sprBalloon_1/sprBalloon_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

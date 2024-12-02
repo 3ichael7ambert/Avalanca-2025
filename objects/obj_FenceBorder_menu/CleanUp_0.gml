@@ -3,3 +3,5 @@
 /// @description remove sprites
 
 remove_vecorized_sprites(sprite_array);
+
+remove_vecorized_sprites(sprite_array_shadow);

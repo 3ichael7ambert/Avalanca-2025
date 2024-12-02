@@ -43,9 +43,9 @@ right_shoe_y = y + lengthdir_y(160 - (pedals - 3) * 4, image_angle - 180 - 35);
 
 
 
-sprite_array_pole1 = setup_height_vector(,15,[0,4],[1,1],[c_ltgray, c_white],,spr_pole);
-sprite_array_pole2 = setup_height_vector(,15,[0,4],[1,1],[c_ltgray, c_white],,spr_pole);
-sprite_array_base = setup_height_vector(,10,[2,4],[1,1],[c_ltgray, c_white],,spr_flag);
+//sprite_array_pole1 = setup_height_vector(,15,[0,4],[1,1],[c_ltgray, c_white],,spr_pole);
+//sprite_array_pole2 = setup_height_vector(,15,[0,4],[1,1],[c_ltgray, c_white],,spr_pole);
+//sprite_array_base = setup_height_vector(,10,[2,4],[1,1],[c_ltgray, c_white],,spr_flag);
 
 image_angle_alt=image_angle+90;
 /*function setup_height_vector(
@@ -68,7 +68,7 @@ if level =0 {
 	//SNOWBOARD
 	if vehicle=0{
 sprite_array_snowboard = setup_height_vector(
-    1, 
+    256, 
     1, 
     [0, 0], 
     [scale, scale], 
@@ -78,23 +78,23 @@ sprite_array_snowboard = setup_height_vector(
 );
 
 sprite_array_shoes = setup_height_vector(
-    scale, 
+    256, 
     1, 
-    [0, 1], 
+    [1, 1], 
     [scale, scale], 
     [shoe_color, shoe_color], 
-    [image_angle,image_angle], 
+    [image_angle-90,image_angle-90], 
     spr_player_shoe
 );
 if shoe_type=2||shoe_type=3 {
 //draw_sprite_ext(spr_player_shoe_tip,0,x+lengthdir_x(30,image_angle),y+lengthdir_y(30,image_angle),scale,scale,image_angle,shoe_color_2,1);
 sprite_array_shoes_tip = setup_height_vector(
-    scale, 
+    256, 
     1, 
-    [0, 1], 
+    [2, 2], 
     [scale, scale], 
-    [shoe_color, shoe_color], 
-    [image_angle,image_angle], 
+    [shoe_color_2, shoe_color_2], 
+    [image_angle-90,image_angle-90], 
     spr_player_shoe_tip
 );
 }
@@ -102,21 +102,21 @@ if shoe_type=2 {
 //draw_sprite_ext(spr_player_shoe_holes,0,x+lengthdir_x(20,image_angle),y+lengthdir_y(20,image_angle),scale,scale,image_angle,c_white,1);
 //draw_sprite_ext(spr_player_shoe_lace,0,x+lengthdir_x(20,image_angle),y+lengthdir_y(20,image_angle),scale,scale,image_angle,shoe_color_3,1);
 sprite_array_shoes_holes = setup_height_vector(
-    scale, 
+    256, 
     1, 
-    [0, 1], 
+    [2, 2], 
     [scale, scale], 
-    [shoe_color, shoe_color], 
-    [image_angle,image_angle], 
+    [c_white, c_white], 
+    [image_angle-90,image_angle-90], 
     spr_player_shoe_holes
 );
 sprite_array_shoes_lace = setup_height_vector(
-    scale, 
+    256, 
     1, 
-    [0, 1], 
+    [2, 2], 
     [scale, scale], 
-    [shoe_color, shoe_color], 
-    [image_angle,image_angle], 
+    [shoe_color_3, shoe_color_3], 
+    [image_angle-90,image_angle-90], 
     spr_player_shoe_lace
 );
 
@@ -127,25 +127,25 @@ sprite_array_shoes_lace = setup_height_vector(
 
 //draw_sprite_ext(spr_player_hands,0,x+lengthdir_x(12,image_angle-25),y+lengthdir_y(12,image_angle-25),scale,scale,image_angle,skin_color,1);
 sprite_array_hands = setup_height_vector(
-    scale, 
-    8, 
-    [1, 3], 
-    [1, 1], 
-    [hair_color, hair_color], 
-    [image_angle,image_angle], 
-    spr_player_hair
+    256, 
+    1, 
+    [4, 4], 
+    [scale, scale], 
+    [skin_color, skin_color], 
+    [image_angle-90,image_angle-90], 
+    spr_player_hands
 );
 
 if shirt_type=1 {
 //draw_sprite_ext(spr_player_arm,0,x+lengthdir_x(15,image_angle-180),y+lengthdir_y(15,image_angle-180),scale,scale,image_angle,arm_color,1);
 sprite_array_shirt1 = setup_height_vector_animate(
-    scale, 
-    8, 
-    [1, 3], 
-    [1, 1], 
-    [hair_color, hair_color], 
-    [image_angle,image_angle], 
-    spr_player_hair
+    256, 
+    1, 
+    [5, 5], 
+    [scale, scale], 
+    [arm_color, arm_color], 
+    [image_angle-90,image_angle-90], 
+    spr_player_arm
 );
 }
 if shirt_type=2 {
@@ -153,33 +153,33 @@ if shirt_type=2 {
 //draw_sprite_ext(spr_player_arm,2,x+lengthdir_x(15,image_angle-180),y+lengthdir_y(15,image_angle-180),scale,scale,image_angle,arm_color_2,1);
 //draw_sprite_ext(spr_player_arm,3,x+lengthdir_x(15,image_angle-180),y+lengthdir_y(15,image_angle-180),scale,scale,image_angle,arm_color_3,1);
 sprite_array_shirt2a = setup_height_vector_animate(
-    scale, 
-    8, 
-    [1, 3], 
-    [1, 1], 
-    [hair_color, hair_color], 
-    [image_angle,image_angle], 
-    spr_player_hair,
+    256, 
+    1, 
+    [6, 6], 
+    [scale, scale], 
+    [c_white, c_white], 
+    [image_angle-90,image_angle-90], 
+    spr_blank,
 	1
 );
 sprite_array_shirt2b = setup_height_vector_animate(
-    scale, 
-    8, 
-    [1, 3], 
-    [1, 1], 
-    [hair_color, hair_color], 
-    [image_angle,image_angle], 
-    spr_player_hair,
+    256, 
+    1, 
+    [6, 6], 
+    [scale, scale], 
+    [arm_color_2, arm_color_2], 
+    [image_angle-90,image_angle-90], 
+    spr_player_arm,
 	2
 );
 sprite_array_shirt3 = setup_height_vector_animate(
-    scale, 
-    8, 
-    [1, 3], 
-    [1, 1], 
-    [hair_color, hair_color], 
-    [image_angle,image_angle], 
-    spr_player_hair,
+    256, 
+    1, 
+    [7,7 ], 
+    [scale, scale], 
+    [arm_color_3, arm_color_3], 
+    [image_angle-90,image_angle-90], 
+    spr_player_arm,
 	3
 );
 }
@@ -192,24 +192,54 @@ sprite_array_shirt3 = setup_height_vector_animate(
 	
 
 
-sprite_array_face = setup_height_vector(
-    /* parameter1 */, 
-    8, 
-    [1, 3], 
-    [1, 1], 
-    [arm_color, arm_color], 
-    /* additional_parameters */, 
+sprite_array_face_skin = setup_height_vector_angle(
+    256, 
+    1, 
+    [10.7, 10.7], 
+    [scale, scale], 
+    [skin_color, skin_color], 
+    [(image_angle-270)/2+45,(image_angle-270)/2+45], 
     spr_player_face
+);
+
+sprite_array_face_band2 = setup_height_vector_angle(
+    256, 
+    1, 
+    [10.8,10.8], 
+    [scale, scale], 
+    [goggles_color, goggles_color], 
+    [(image_angle-270)/2+45,(image_angle-270)/2+45], 
+    spr_player_band2
+);
+
+sprite_array_face_glasses_band = setup_height_vector_angle(
+    256, 
+    1, 
+    [10.9, 10.9], 
+    [scale, scale], 
+    [goggles_color, goggles_color], 
+    [(image_angle-270)/2+45,(image_angle-270)/2+45], 
+    spr_player_glasses_band
+);
+
+sprite_array_face_glasses = setup_height_vector_angle(
+    256, 
+    1, 
+    [11, 11], 
+    [scale, scale], 
+    [glasses_color, glasses_color], 
+    [(image_angle-270)/2+45,(image_angle-270)/2+45], 
+    spr_player_glasses
 );
 
 
 sprite_array_hair = setup_height_vector_animate(
-    scale, 
-    8, 
-    [1, 3], 
-    [1, 1], 
+    256, 
+    1, 
+    [11.1, 11.1], 
+    [scale, scale], 
     [hair_color, hair_color], 
-    [image_angle,image_angle], 
+    [(image_angle-270)/2+45,(image_angle-270)/2+45], 
     spr_player_hair,
 	hair_frame
 );
