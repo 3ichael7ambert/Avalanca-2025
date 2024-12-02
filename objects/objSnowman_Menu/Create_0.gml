@@ -48,10 +48,10 @@ sprite_array_face = setup_height_vector(
 	[3.1,3.5],
 	[_scale,_scale],
 	[c_ltgray, c_white],
-	[dir-90,dir-90],
+	[dir,dir],
 	sprSnowman_Face);
 sprite_array_hat = setup_height_vector(
-	,
+	64,
 	3,
 	[3.1,5],
 	[_scale,_scale],
