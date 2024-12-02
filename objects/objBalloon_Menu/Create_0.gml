@@ -22,15 +22,25 @@ ydist=lengthdir_y(dis,dir);
 
 /// setup
 /// @description setup
-
+sprite_array_balloon2 = setup_height_vector_balloon(
+	,
+	15,
+	[z+2,z+10],
+	[0,_scale],
+	[_color, _color],
+	[dir,dir],
+	sprBalloon_1);
+	
+	
 sprite_array_string = setup_height_vector(
-	64,
+	,
 	3,
 	[z+0,z+2.1],
 	[_scale,_scale],
 	[c_ltgray, c_white],
 	[dir,dir],
 	sprBalloon_Str);
+	/*
 sprite_array_balloon = setup_height_vector(
 	64,
 	2,
@@ -39,10 +49,11 @@ sprite_array_balloon = setup_height_vector(
 	[_color, _color],
 	[dir,dir],
 	sprBalloon);
+	*/
 sprite_array_reflection = setup_height_vector(
-	64,
+	,
 	1,
-	[z+6,z+6],
+	[z+10.1,z+11],
 	[_scale,_scale],
 	[c_white, c_white],
 	[0,0],
