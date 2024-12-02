@@ -5,48 +5,60 @@ var height = [0, irandom_range(6,8)];
 var scale = [random_range(0.9, 1.1), random_range(0.1, 0.3)];
 var layers = random_range(6,7);
 var rotate = [irandom_range(0, 360),irandom_range(0, 360)];
-z=10;
-_scale=.5;
-_color=make_color_hsv(random(360),100,100);
-target=obj_camera_menu;
-
-target_x=obj_camera_menu.x;
-target_y=obj_camera_menu.y;
-
-
-dis=distance_to_object(target);
-dir=point_direction(x,y,target_x,target_y)+182;
-xdist=lengthdir_x(dis,dir);
-ydist=lengthdir_y(dis,dir);
-
-
+dir = random(360);
+_scale=.3;
 /// setup
 /// @description setup
 
-sprite_array_string = setup_height_vector(
-	64,
+sprite_array_body = setup_height_vector(
+	,
 	3,
-	[z+0,z+2.1],
+	[0,2],
+	[1*_scale,.8*_scale],
+	[c_ltgray, c_white],
+	[dir,dir],
+	sprSnowman_Body);
+sprite_array_btns = setup_height_vector(
+	,
+	2,
+	[1,2],
+	[_scale,_scale],
+	[c_ltgray, c_white],
+	[dir-90,dir-90],
+	sprSnowman_Body_Btns);
+sprite_array_arm_l = setup_height_vector(
+	,
+	1,
+	[1.5,1.5],
+	[_scale,_scale],
+	[c_ltgray, c_white],
+	[dir-90,dir-90],
+	sprSnowman_Arm);
+sprite_array_arm_r = setup_height_vector(
+	,
+	1,
+	[1,1],
+	[_scale,_scale],
+	[c_ltgray, c_white],
+	[dir+90,dir+90],
+	sprSnowman_Arm);
+sprite_array_face = setup_height_vector(
+	64,
+	2,
+	[3.1,3.5],
+	[_scale,_scale],
+	[c_ltgray, c_white],
+	[dir-90,dir-90],
+	sprSnowman_Face);
+sprite_array_hat = setup_height_vector(
+	,
+	3,
+	[3.1,5],
 	[_scale,_scale],
 	[c_ltgray, c_white],
 	[dir,dir],
-	sprBalloon_Str);
-sprite_array_balloon = setup_height_vector(
-	64,
-	2,
-	[z+2,z+5],
-	[_scale,_scale],
-	[_color, _color],
-	[dir,dir],
-	sprBalloon);
-sprite_array_reflection = setup_height_vector(
-	64,
-	1,
-	[z+6,z+6],
-	[_scale,_scale],
-	[c_white, c_white],
-	[0,0],
-	sprBalloon_Ref);
+	sprSnowman_Face_Hat);
+
 
 
 

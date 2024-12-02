@@ -15,6 +15,8 @@ buttonPressed=false;
 
 //SALOMON
 alarm[1]=50;
+alarm[2]=50;
+alarm[3]=50;
 depth=-10000;
 
 application_surface_draw_enable(true);

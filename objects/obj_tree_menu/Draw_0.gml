@@ -1,4 +1,5 @@
 //shadow
+exit; 
 draw_sprite_ext(spr_tree,0,x+lengthdir_x(o_menuMain.shadowSize,o_menuMain.sunDirection),y+lengthdir_y(o_menuMain.shadowSize,o_menuMain.sunDirection), 1-size,1-size,image_angle/6,c_black,.1);
 draw_sprite_ext(spr_tree,1,x+lengthdir_x(o_menuMain.shadowSize*2,o_menuMain.sunDirection),y+lengthdir_y(o_menuMain.shadowSize*2,o_menuMain.sunDirection), 1-size,1-size,image_angle/6,c_black,.1);
 draw_sprite_ext(spr_tree,2,x+lengthdir_x(o_menuMain.shadowSize*3,o_menuMain.sunDirection),y+lengthdir_y(o_menuMain.shadowSize*3,o_menuMain.sunDirection), 1-size,1-size,image_angle/6,c_black,.1);

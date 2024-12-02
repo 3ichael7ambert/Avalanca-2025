@@ -21,7 +21,6 @@ if level=0 {
 	[random_range(0.9, 1.1), random_range(0.9, 1.1)],
 	,
 	[irandom_range(0, 360),irandom_range(0, 360)],
-	sprPalmTree_Leaves,
 	spr_blank);
 	}
 	

@@ -2,6 +2,6 @@
 // You can write your code in this editor
 /// @description remove sprites
 
-remove_vecorized_sprites(sprite_array_base);
-remove_vecorized_sprites(sprite_array_pole1);
-remove_vecorized_sprites(sprite_array_pole2);
+remove_vecorized_sprites(sprite_array_reflection);
+remove_vecorized_sprites(sprite_array_balloon);
+remove_vecorized_sprites(sprite_array_string);

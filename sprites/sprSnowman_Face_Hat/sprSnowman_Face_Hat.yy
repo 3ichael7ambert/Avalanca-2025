@@ -26,7 +26,7 @@
   ],
   "name":"sprSnowman_Face_Hat",
   "nineSlice":null,
-  "origin":7,
+  "origin":4,
   "parent":{
     "name":"Avalanca",
     "path":"Avalanca.yyp",
@@ -88,7 +88,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":135,
-    "yorigin":269,
+    "yorigin":134,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

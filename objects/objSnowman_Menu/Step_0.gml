@@ -1,6 +1,3 @@
-y -= o_menuMain.roomSpeed;
-dir=point_direction(x,y,target_x,target_y)+182;
-
 // Define the target (focal point)
 target_x = room_width / 2;
 target_y = room_height / 2;
@@ -19,7 +16,7 @@ x_offset = lengthdir_x(100*_scale, direction_to_target + 180); // Horizontal off
 y_offset = lengthdir_y(100*_scale, direction_to_target + 180); // Vertical offset perpendicular to direction
 
 // Ensure the object moves up and destroys when out of bounds
-//y -= o_menuMain.roomSpeed;
+y -= o_menuMain.roomSpeed;
 if (y < -500) {
     instance_destroy();
 }
