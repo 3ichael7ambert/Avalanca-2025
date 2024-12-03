@@ -10,3 +10,4 @@ remove_vecorized_sprites(sprite_array_face);
 remove_vecorized_sprites(sprite_array_hat);
 
 remove_vecorized_sprites(sprite_array_shadow)
+remove_vecorized_sprites(sprite_array_shadow_hat);

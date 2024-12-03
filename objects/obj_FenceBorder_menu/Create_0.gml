@@ -26,12 +26,12 @@ sprite_array_shadow=setup_height_vector_shadow(
 sprite_array_shadow = setup_shadow_vector(
 	,
 	layers,
-	,
+	[0,height[1]+o_menuMain.shadowSize],
 	scale,
 	,
 	spr_FenceBorder,
 	o_menuMain.sunDirection,
-	10
+	o_menuMain.shadowSize
 	//o_menuMain.shadowSize*10
 	);
 	

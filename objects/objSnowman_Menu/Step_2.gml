@@ -9,3 +9,4 @@ calculate_height_vector(sprite_array_hat);
 
 //calculate_height_vector_shadow(sprite_array_shadow);
 update_shadow_vector(sprite_array_shadow,x,y);
+update_shadow_vector(sprite_array_shadow_hat,x,y);

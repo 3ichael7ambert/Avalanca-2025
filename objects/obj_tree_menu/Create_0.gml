@@ -8,7 +8,7 @@ if level=0 {
 	sprite_array = setup_height_vector(
 		,
 		random_range(6,7),
-		[0, irandom_range(6,8)],
+		[0, irandom_range(6,7)],
 		[random_range(0.9, 1.1), random_range(0.1, 0.3)],
 		,
 		[irandom_range(0, 360),irandom_range(0, 360)],
@@ -40,12 +40,12 @@ if level=0 {
 	sprite_array_shadow = setup_shadow_vector(
 	,
 	random_range(6,7),
-	[0,20],
+	[0,random_range(6,7)+o_menuMain.shadowSize],
 	[random_range(0.9, 1.1), random_range(0.1, 0.3)],
 	[irandom_range(0, 360),irandom_range(0, 360)],
 	spr_tree_menu,
 	o_menuMain.sunDirection,
-	40+o_menuMain.shadowSize*10
+	o_menuMain.shadowSize
 	);
 	
 	
