@@ -59,7 +59,7 @@ sprite_array_hat = setup_height_vector(
 	[dir,dir],
 	sprSnowman_Face_Hat);
 
-
+/*
 sprite_array_shadow=setup_height_vector_shadow(
 		,
 		3,
@@ -73,7 +73,18 @@ sprite_array_shadow=setup_height_vector_shadow(
 		o_menuMain.shadowSize,
 	
 	);
-
+*/
+sprite_array_shadow = setup_shadow_vector(
+	,
+	random_range(3,3),
+	,
+	[1*_scale,.8*_scale],
+	[irandom_range(0, 360),irandom_range(0, 360)],
+	sprSnowman_Body,
+	o_menuMain.sunDirection,
+	10
+	//o_menuMain.shadowSize*10
+	);
 
 
 

@@ -23,7 +23,7 @@ if level=0 {
 		[irandom_range(0, 360),irandom_range(0, 360)],
 		spr_blank);
 	
-	sprite_array_shadow=setup_height_vector_shadow(
+	/*sprite_array_shadow=setup_height_vector_shadow(
 		,
 		random_range(6,7),
 		,
@@ -35,6 +35,17 @@ if level=0 {
 		o_menuMain.sun_y,
 		o_menuMain.shadowSize,
 	
+	);*/
+	
+	sprite_array_shadow = setup_shadow_vector(
+	,
+	random_range(6,7),
+	[0,20],
+	[random_range(0.9, 1.1), random_range(0.1, 0.3)],
+	[irandom_range(0, 360),irandom_range(0, 360)],
+	spr_tree_menu,
+	o_menuMain.sunDirection,
+	40+o_menuMain.shadowSize*10
 	);
 	
 	

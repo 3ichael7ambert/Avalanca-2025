@@ -12,4 +12,5 @@ calculate_height_vector(sprite_array_string);
 calculate_height_vector(sprite_array_reflection,x-10,y+5);
 
 
-calculate_height_vector_shadow(sprite_array_shadow);
+//calculate_height_vector_shadow(sprite_array_shadow);
+update_shadow_vector(sprite_array_shadow,x,y);

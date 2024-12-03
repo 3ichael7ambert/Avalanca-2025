@@ -59,7 +59,7 @@ sprite_array_reflection = setup_height_vector(
 	[0,0],
 	sprBalloon_Ref);
 
-
+/*
 sprite_array_shadow = setup_height_vector_shadow(
 	,
 	2,
@@ -73,7 +73,19 @@ sprite_array_shadow = setup_height_vector_shadow(
 	o_menuMain.sun_y,
 	.3
 	
-)
+);*/
+
+sprite_array_shadow = setup_shadow_vector(
+	,
+	random_range(1,1),
+	,
+	[random_range(0.9, 1.1), random_range(0.1, 0.3)],
+	[irandom_range(0, 360),irandom_range(0, 360)],
+	sprBalloon_1,
+	o_menuMain.sunDirection,
+	10
+	//o_menuMain.shadowSize*10
+	);
 
 
 

@@ -8,7 +8,7 @@ var rotate = [0,0];
 
 /// setup
 sprite_array = setup_height_vector(,layers,height,scale,,rotate);
-
+/*
 sprite_array_shadow=setup_height_vector_shadow(
 		,
 		5,
@@ -22,7 +22,18 @@ sprite_array_shadow=setup_height_vector_shadow(
 		o_menuMain.shadowSize,
 	
 	);
-	
+*/
+sprite_array_shadow = setup_shadow_vector(
+	,
+	layers,
+	,
+	scale,
+	,
+	spr_FenceBorder,
+	o_menuMain.sunDirection,
+	10
+	//o_menuMain.shadowSize*10
+	);
 	
 
 target_x=room_width/2;
